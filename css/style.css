@@ -1,0 +1,234 @@
+/* top */
+
+
+.top-img{
+  width: 100%;
+  height: 750px;
+  }
+
+
+.top-media{
+  margin: 100px auto;
+  width: 70%;
+}
+
+.video{
+  width:100%;
+  padding-bottom: 56.25%;
+  height:0px;
+  position: relative;
+  }
+
+  .video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+
+.top-news{
+   width: 85%;
+  margin: 100px auto 50px;
+}
+
+.top-news-big{
+  border-bottom: 1px solid rgb(206, 195, 195);
+}
+
+
+.top-news-big-image {
+  width: 530px;
+  height:500px;
+  object-fit: cover;
+}
+
+.top-news-right{
+  margin-top: 70px;
+}
+
+
+.top-news-small{
+  height: 350px;
+ 
+}
+
+.top-news-small-col{
+  width : calc(100% / 3);
+
+  margin-right: 10px;
+}
+
+.top-news-link {
+
+
+  border-bottom: 1px solid rgb(206, 195, 195);
+}
+
+
+.top-news-small-img {
+  width: 330px;
+  height:220px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+
+
+
+
+.top-release{
+  width: 85%;
+ margin: 20px auto 150px;
+}
+
+.top-release-col{
+  width : calc(100% / 4);
+  margin-right: 20px;
+}
+
+.top-release-image{
+  width: 250px;
+  height:250px;
+}
+
+
+
+
+
+/* news */
+
+.news section{
+  width: 80%;
+  height: 350px;
+  border-bottom: 1px solid rgb(206, 195, 195);
+}
+
+
+.article-top{
+  margin: 170px auto 50px;
+}
+
+.article{
+  margin: 0 auto 50px;
+}
+
+.article-left{
+  width: 45%;
+}
+
+.article-center{
+  width: 10%;
+}
+
+.article-right{
+  width: 45%;
+}
+
+.article-image {
+  width: 500px;
+  height:300px;
+  object-fit: cover;
+}
+
+
+.pagination{
+  width: 100px;
+
+} 
+
+
+
+/* release */
+
+.release {
+  width: 80%;
+  margin: 100px auto ;
+}
+
+.release-box{
+
+  margin-bottom: 40px;
+  height: 280px;
+}
+
+.release-box img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.release-box a:hover{
+  opacity: 0.5;
+}
+
+.release .row{
+  text-align : center 
+}
+
+
+
+
+
+
+/* about */
+
+.about {
+  width: 80%;
+  margin: 100px auto ;
+}
+
+.about p{
+  font-size: 1rem;
+  line-height: 1.7;
+
+}
+
+
+.about-img{
+  width: 100%;
+  height: 350px; 
+
+  margin-bottom: 80px;
+  object-fit: cover;
+}
+
+
+
+
+
+/* live */
+
+.live{
+    width: 85%;
+    margin: 100px auto ;
+    font-size: 0.8rem;
+  }
+  
+  .live-infomation  {
+    margin-left: 30px;
+  }
+
+  .live a {
+    border-bottom: 1px solid rgba(94, 110, 112, 0.5);
+  }
+  
+ 
+  
+  .live a:hover {
+    width: 100%;
+    border-bottom: solid 4px rgb(26, 175, 56);
+    transition: all .2s ease-in;
+  }
+
+
+  /* contact */
+
+  .contact{
+    width: 80%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

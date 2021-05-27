@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+
+*,*::before,*::after{
+box-sizing: border-box;
+}
+
+body{
+font-family: "Hiragino Kaku Gothic ProN" Meiryo,sans-serif;
+font-size: 62.5%;
+}
+
+
+p{
+  font-size: 0.8rem;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+img{
+  object-fit: cover;
+}
+
+
+
+.nav-item a:link,a:visited,a:hover, a:active{
+text-decoration: none;
+color:  white;
+}
+
+
+ h1 a{
+  text-decoration: none;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.8rem;
+  margin: 30px 40px;
+  color: #fff;
+}
+
+h1 a:link,a:visited, a:active{
+  text-decoration: none;
+color:  white;
+}
+
+
+
+main a:link,a:visited,a:hover, a:active{
+  text-decoration: none;
+  color:  black;
+  }
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding-top: 10px;
+}
+
+nav a{
+  font-size: 0.9rem;
+}
+
+nav a:hover{
+    opacity: 0.7;
+  }
+
+
+nav a::after {
+    border-bottom: solid 1px #fff;
+    bottom: 0;
+    content: "";
+    display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+
+  .navbar{
+    margin-right: 40px;
+  }
+
+
+
+.copyright{
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.sns-icon-link {
+  float: right;
+}
+
+.sns-image{
+  width: 23px;
+}
+
+
+#myBtn {
+  /* display: none;  */
+  position: fixed; 
+  bottom: 90px;
+  right: 40px; 
+  border: none; 
+  background-color: rgb(26, 175, 56);
+  color: white; 
+  cursor: pointer; 
+  padding: 5px 25px;
+  border-radius: 5px; 
+  font-size: 0.8rem; 
+}
+
+#myBtn:hover {
+  opacity: 0.8;
+}
